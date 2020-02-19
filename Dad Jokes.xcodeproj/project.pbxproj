@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19891A021EC67A700024A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C198919F21EC67A700024A3E /* AppDelegate.swift */; };
+		C19891A221EC67A700024A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19891A121EC67A700024A3E /* ViewController.swift */; };
+		C19891A521EC67A700024A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19891A321EC67A700024A3E /* Main.storyboard */; };
+		C19891A721EC67A900024A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19891A621EC67A900024A3E /* Assets.xcassets */; };
+		C19891AA21EC67A900024A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19891A821EC67A900024A3E /* LaunchScreen.storyboard */; };
+		C19891B521EC67A900024A3E /* Dad_JokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19891B421EC67A900024A3E /* Dad_JokesTests.swift */; };
+		C19891C021EC67A900024A3E /* Dad_JokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19891BF21EC67A900024A3E /* Dad_JokesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19891B121EC67A900024A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C198919421EC67A700024A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C198919B21EC67A700024A3E;
+			remoteInfo = "Dad Jokes";
+		};
+		C19891BC21EC67A900024A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C198919421EC67A700024A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C198919B21EC67A700024A3E;
+			remoteInfo = "Dad Jokes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C198919C21EC67A700024A3E /* Dad Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dad Jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C198919F21EC67A700024A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C19891A121EC67A700024A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C19891A421EC67A700024A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C19891A621EC67A900024A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19891A921EC67A900024A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C19891AB21EC67A900024A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19891B021EC67A900024A3E /* Dad JokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dad JokesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19891B421EC67A900024A3E /* Dad_JokesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_JokesTests.swift; sourceTree = "<group>"; };
+		C19891B621EC67A900024A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19891BB21EC67A900024A3E /* Dad JokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dad JokesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19891BF21EC67A900024A3E /* Dad_JokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad_JokesUITests.swift; sourceTree = "<group>"; };
+		C19891C121EC67A900024A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C198919921EC67A700024A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19891AD21EC67A900024A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19891B821EC67A900024A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C198919321EC67A700024A3E = {
+			isa = PBXGroup;
+			children = (
+				C198919E21EC67A700024A3E /* Dad Jokes */,
+				C19891B321EC67A900024A3E /* Dad JokesTests */,
+				C19891BE21EC67A900024A3E /* Dad JokesUITests */,
+				C198919D21EC67A700024A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C198919D21EC67A700024A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C198919C21EC67A700024A3E /* Dad Jokes.app */,
+				C19891B021EC67A900024A3E /* Dad JokesTests.xctest */,
+				C19891BB21EC67A900024A3E /* Dad JokesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C198919E21EC67A700024A3E /* Dad Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				C198919F21EC67A700024A3E /* AppDelegate.swift */,
+				C19891A121EC67A700024A3E /* ViewController.swift */,
+				C19891A321EC67A700024A3E /* Main.storyboard */,
+				C19891A621EC67A900024A3E /* Assets.xcassets */,
+				C19891A821EC67A900024A3E /* LaunchScreen.storyboard */,
+				C19891AB21EC67A900024A3E /* Info.plist */,
+			);
+			path = "Dad Jokes";
+			sourceTree = "<group>";
+		};
+		C19891B321EC67A900024A3E /* Dad JokesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19891B421EC67A900024A3E /* Dad_JokesTests.swift */,
+				C19891B621EC67A900024A3E /* Info.plist */,
+			);
+			path = "Dad JokesTests";
+			sourceTree = "<group>";
+		};
+		C19891BE21EC67A900024A3E /* Dad JokesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19891BF21EC67A900024A3E /* Dad_JokesUITests.swift */,
+				C19891C121EC67A900024A3E /* Info.plist */,
+			);
+			path = "Dad JokesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C198919B21EC67A700024A3E /* Dad Jokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19891C421EC67A900024A3E /* Build configuration list for PBXNativeTarget "Dad Jokes" */;
+			buildPhases = (
+				C198919821EC67A700024A3E /* Sources */,
+				C198919921EC67A700024A3E /* Frameworks */,
+				C198919A21EC67A700024A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dad Jokes";
+			productName = "Dad Jokes";
+			productReference = C198919C21EC67A700024A3E /* Dad Jokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19891AF21EC67A900024A3E /* Dad JokesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19891C721EC67A900024A3E /* Build configuration list for PBXNativeTarget "Dad JokesTests" */;
+			buildPhases = (
+				C19891AC21EC67A900024A3E /* Sources */,
+				C19891AD21EC67A900024A3E /* Frameworks */,
+				C19891AE21EC67A900024A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19891B221EC67A900024A3E /* PBXTargetDependency */,
+			);
+			name = "Dad JokesTests";
+			productName = "Dad JokesTests";
+			productReference = C19891B021EC67A900024A3E /* Dad JokesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19891BA21EC67A900024A3E /* Dad JokesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19891CA21EC67A900024A3E /* Build configuration list for PBXNativeTarget "Dad JokesUITests" */;
+			buildPhases = (
+				C19891B721EC67A900024A3E /* Sources */,
+				C19891B821EC67A900024A3E /* Frameworks */,
+				C19891B921EC67A900024A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19891BD21EC67A900024A3E /* PBXTargetDependency */,
+			);
+			name = "Dad JokesUITests";
+			productName = "Dad JokesUITests";
+			productReference = C19891BB21EC67A900024A3E /* Dad JokesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C198919421EC67A700024A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Paul Way";
+				TargetAttributes = {
+					C198919B21EC67A700024A3E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C19891AF21EC67A900024A3E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C198919B21EC67A700024A3E;
+					};
+					C19891BA21EC67A900024A3E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C198919B21EC67A700024A3E;
+					};
+				};
+			};
+			buildConfigurationList = C198919721EC67A700024A3E /* Build configuration list for PBXProject "Dad Jokes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C198919321EC67A700024A3E;
+			productRefGroup = C198919D21EC67A700024A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C198919B21EC67A700024A3E /* Dad Jokes */,
+				C19891AF21EC67A900024A3E /* Dad JokesTests */,
+				C19891BA21EC67A900024A3E /* Dad JokesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C198919A21EC67A700024A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19891AA21EC67A900024A3E /* LaunchScreen.storyboard in Resources */,
+				C19891A721EC67A900024A3E /* Assets.xcassets in Resources */,
+				C19891A521EC67A700024A3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19891AE21EC67A900024A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19891B921EC67A900024A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C198919821EC67A700024A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19891A221EC67A700024A3E /* ViewController.swift in Sources */,
+				C19891A021EC67A700024A3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19891AC21EC67A900024A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19891B521EC67A900024A3E /* Dad_JokesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19891B721EC67A900024A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19891C021EC67A900024A3E /* Dad_JokesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19891B221EC67A900024A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C198919B21EC67A700024A3E /* Dad Jokes */;
+			targetProxy = C19891B121EC67A900024A3E /* PBXContainerItemProxy */;
+		};
+		C19891BD21EC67A900024A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C198919B21EC67A700024A3E /* Dad Jokes */;
+			targetProxy = C19891BC21EC67A900024A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C19891A321EC67A700024A3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19891A421EC67A700024A3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C19891A821EC67A900024A3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19891A921EC67A900024A3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19891C221EC67A900024A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19891C321EC67A900024A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19891C521EC67A900024A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H95XVL2FW3;
+				INFOPLIST_FILE = "Dad Jokes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrds.Dad-Jokes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19891C621EC67A900024A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H95XVL2FW3;
+				INFOPLIST_FILE = "Dad Jokes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrds.Dad-Jokes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C19891C821EC67A900024A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H95XVL2FW3;
+				INFOPLIST_FILE = "Dad JokesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrds.Dad-JokesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dad Jokes.app/Dad Jokes";
+			};
+			name = Debug;
+		};
+		C19891C921EC67A900024A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H95XVL2FW3;
+				INFOPLIST_FILE = "Dad JokesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrds.Dad-JokesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dad Jokes.app/Dad Jokes";
+			};
+			name = Release;
+		};
+		C19891CB21EC67A900024A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H95XVL2FW3;
+				INFOPLIST_FILE = "Dad JokesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrds.Dad-JokesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dad Jokes";
+			};
+			name = Debug;
+		};
+		C19891CC21EC67A900024A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H95XVL2FW3;
+				INFOPLIST_FILE = "Dad JokesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xrds.Dad-JokesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dad Jokes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C198919721EC67A700024A3E /* Build configuration list for PBXProject "Dad Jokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19891C221EC67A900024A3E /* Debug */,
+				C19891C321EC67A900024A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19891C421EC67A900024A3E /* Build configuration list for PBXNativeTarget "Dad Jokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19891C521EC67A900024A3E /* Debug */,
+				C19891C621EC67A900024A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19891C721EC67A900024A3E /* Build configuration list for PBXNativeTarget "Dad JokesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19891C821EC67A900024A3E /* Debug */,
+				C19891C921EC67A900024A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19891CA21EC67A900024A3E /* Build configuration list for PBXNativeTarget "Dad JokesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19891CB21EC67A900024A3E /* Debug */,
+				C19891CC21EC67A900024A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C198919421EC67A700024A3E /* Project object */;
+}
